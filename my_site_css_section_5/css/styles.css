@@ -1,0 +1,147 @@
+/* TAG STYLES */
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: 'Audiowide', cursive;
+    font-weight: 300;
+    color: #66bfbf;
+}
+
+hr {
+    width: 5%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    color: gray;
+    margin: 100px auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+/* CLASS STYLES */
+
+.top-container {
+    background-color: #eff8ff;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    margin: 100px 0px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-info {
+    width: 30%;
+    margin: 40px auto 60px auto;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 40px 0 20px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+    bottom: 300px;
+}
+
+.developer-header {
+    font-weight: normal;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    overflow: auto;
+}
+
+.skill-computer {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-chilly {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6
+}
+
+.end-information {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding-top: 20px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
