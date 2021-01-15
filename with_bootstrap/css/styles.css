@@ -108,6 +108,14 @@ body {
     #title .download-button-apple, #title .download-button-play {
         margin-right: 0;
     }
+
+    #title h1 {
+        font-size: 2rem;
+    }
+
+    #title .navbar-brand {
+        font-size: 1.6rem;
+    }
 }
 
 .div-title {
@@ -216,5 +224,9 @@ body {
 
 #footer .fab {
     color: #6c757d;
-    margin: 0 5px 5px 5px;
+    margin: 0 5px 10px 5px;
+}
+
+#footer .fab:hover {
+    color: #d7fbe8;
 }
