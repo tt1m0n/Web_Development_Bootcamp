@@ -1,19 +1,19 @@
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
+body {
     font-family: Montserrat, sans-serif;
-    font-weight: 900;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
 }
 
 h2 {
     font-size: 2rem;
     line-height: 1.5;
-    font-family: Montserrat, sans-serif;
     font-weight: 900;
 }
 
-h3 {
-    font-family: Montserrat, sans-serif;
+h3 {  
     font-weight: 700;
 }
 
@@ -21,13 +21,20 @@ p {
     color: #8f8f8f;
 }
 
-body {
-    font-family: Montserrat, sans-serif;
+/* Headings */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;    
 }
 
 /* Title Section */
 #title {
     background-color: #d7fbe8;
+}
+
+.div-title {
+    text-align: left;
 }
 
 /* Navbar */
@@ -95,7 +102,7 @@ body {
         width: 40%;
     }
 
-    #title .row {
+    .div-title {
         text-align: center;
     }
 
@@ -118,21 +125,15 @@ body {
     }
 }
 
-.div-title {
-    text-align: center;
-}
-
 /* Feature Section*/
 
 #features {
     padding-bottom: 50px;
     background-color: white;
     position: relative;
-    /* z-index: 1; */
 }
 
 .div-feature {
-    text-align: center;
     margin-top: 40px;
 }
 
@@ -149,7 +150,6 @@ body {
 
 #testimonials {
     background-color: #d7fbe8;
-    text-align: center;
 }
 
 .testimonial-img {
@@ -172,7 +172,6 @@ body {
 #press {
     background-color: #d7fbe8;
     padding: 3% 15% 5% 15%;
-    text-align: center;
 }
 
 .press-img {
@@ -183,7 +182,6 @@ body {
 /* Pricing */
 
 #pricing {
-    text-align: center;
     padding: 4%;
 }
 
@@ -201,15 +199,13 @@ body {
 #cta {
     background-color: #d7fbe8;
     padding: 70px 10% 40px 10%;
-    text-align: center;
-    margin: 0 0;
 }
 
 #cta .download-button-apple, #cta .download-button-play {
     margin: 20px 10px 30px;
 }
 
-#cta h3 {
+.cta-header {
     font-weight: 900;
     font-size: 30px;
 }
@@ -217,7 +213,6 @@ body {
 /* Footer */
 
 #footer {
-    text-align: center;
     background-color: #ffffff;
     padding: 60px 20px 40px 20px;
 }
