@@ -95,36 +95,6 @@ p {
     top: -15%;
 }
 
-@media (max-width: 1200px) {
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        width: 40%;
-    }
-
-    .div-title {
-        text-align: center;
-    }
-
-    #title .download-button-play {
-        margin-right: 0;
-    }
-}
-
-@media (max-width: 525px) {
-    #title .download-button-apple, #title .download-button-play {
-        margin-right: 0;
-    }
-
-    #title h1 {
-        font-size: 2rem;
-    }
-
-    #title .navbar-brand {
-        font-size: 1.6rem;
-    }
-}
-
 /* Feature Section*/
 
 #features {
@@ -224,4 +194,38 @@ p {
 
 #footer .fab:hover {
     color: #d7fbe8;
+}
+
+@media (max-width: 525px) {
+    #title .download-button-apple, #title .download-button-play {
+        margin-right: 0;
+    }
+
+    #title h1 {
+        font-size: 2rem;
+    }
+
+    #title .navbar-brand {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+
+    .div-title {
+        text-align: center;
+    }
+
+    #title .download-button-play {
+        margin-right: 0;
+    }
+
+    #pricing {
+        padding-top: 8%;
+    }
 }
