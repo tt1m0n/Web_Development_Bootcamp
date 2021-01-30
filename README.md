@@ -13,6 +13,6 @@ modify my example of personal site using css
 ### course sections: 6-8
 created example site using bootstrap
 
-## dicee challange
+## dicee challenge
 ### course sections: 9-12
 created dicee random game using basic js and DOM manipulation
