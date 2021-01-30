@@ -13,5 +13,5 @@ modify my example of personal site using css
 created example site using bootstrap
 
 
-## dicee challenge [course sections: 9-12]
+## dicee_challenge [course sections: 9-12]
 created dicee random game using basic js and DOM manipulation
