@@ -15,3 +15,6 @@ created example site using bootstrap
 
 ## dicee_challenge [course sections: 9-12]
 created dicee random game using basic js and DOM manipulation
+
+## drumkit_challenge [course section: 13]
+created dumkit using js (event listener), DOM manipulation and basic animation
