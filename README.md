@@ -18,3 +18,8 @@ created dicee random game using basic js and DOM manipulation
 
 ## drumkit_challenge [course section: 13]
 created dumkit using js (event listener), DOM manipulation and basic animation
+
+## drumkit_challenge_jquery [course section: 14]
+remake drumkit from previous project using jquery
+
+## simon_game [course section: 15]
