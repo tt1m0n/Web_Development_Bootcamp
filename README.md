@@ -28,7 +28,7 @@ remake drumkit from previous project using jquery
 
 ## simon_game [course section: 15]
 
-sound game
+sound game (some test info here)
 
 ## calculator_webapp [course sections: 16-19]
 
